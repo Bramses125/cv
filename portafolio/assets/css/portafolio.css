@@ -1,0 +1,20 @@
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .letra{display: flex;
+flex-wrap:wrap ;
+flex-direction: column;
+align-items: center;}
+
+.padign{padding-bottom: 40px;
+margin-top: 40px;}
+
+.foto{
+display: flex;
+flex-direction: row;
+justify-content: center;}
+
+.color{background-color: rgb(212, 163, 95);}
