@@ -2,13 +2,15 @@
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-style: normal;
-  }
+}
 
-.fila{width: 50%;
+.fila{
+  width: 50%;
   height: 50%;
 }
 
-body{  display: flex;
+body{
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;} 
@@ -24,7 +26,7 @@ body{  display: flex;
   grid-template-columns: 1fr 2fr;
   box-shadow: 0 35px 35px rgba(0,0,0,0.1);}
 
-  .ladoizquierdo{
+.ladoizquierdo{
     position: relative;
     background-color: #728973;
     padding: 40px;
@@ -35,34 +37,45 @@ body{  display: flex;
     height: 200px;
     overflow: hidden;
 }
-.perfil{ display: flex;
-  flex-direction: column;
-  align-items: center;
- }
- .pading{padding-top: 40px;
+.perfil{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pading{
+  padding-top: 40px;
 }
 
- .iconos{    display: inline-block;
+.iconos{    
+  display: inline-block;
   width: 30px;
-  font-size: 18px;}
-  .letra{color: white;}
+  font-size: 18px;
+}
+  
+.letra{
+    color: white;
+}
 
-  .ladoderecho{    position: relative;
+.ladoderecho{
+    position: relative;
     background-color: #fff;
     padding: 40px;
-  margin-bottom: 50px;}
+    margin-bottom: 50px;
+}
     
-  .parrafo{
+.parrafo{
     display: flex;
     flex-direction: column;
     align-items:center ;
   }
 
-  .titulo {    text-transform: uppercase;
+.titulo {    text-transform: uppercase;
     letter-spacing: 1px;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+}
 
-    .espacio{    display: flex;
+.espacio{   
+      display: flex;
       flex-direction: row;
       margin: 20px 0;
   }
